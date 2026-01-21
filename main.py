@@ -58,8 +58,8 @@ def username_mode(username):
         user_instance = User(username)
         user_lists = user_instance.get_lists()
         display.object_details(user_instance)
-    except Exception as e:
-        messages.error(f"Error: {str(e)}")
+    except Exception:
+        messages.user_not_found(username)
         st.stop()
 
     # Nested functions after validation
