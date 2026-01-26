@@ -1,4 +1,4 @@
 pandas>=2.0.0
 streamlit>=1.35.0
 altair<5
-letterboxdpy @ git+https://github.com/fastfingertips/letterboxdpy@main
+letterboxdpy>=6.0.0
